@@ -1,0 +1,28 @@
+nohup: ignoring input
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-8.4.2, pluggy-1.6.0 -- C:\Users\Mahmoud\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Mahmoud\CascadeProjects\windsurf-project-2
+plugins: anyio-4.4.0, time-machine-2.16.0
+collecting ... collected 18 items
+
+tests/test_fenwick_tree.py::TestFenwickTree::test_basic_operations PASSED [  5%]
+tests/test_fenwick_tree.py::TestFenwickTree::test_update_operations PASSED [ 11%]
+tests/test_fenwick_tree.py::TestFenwickTree::test_range_queries PASSED   [ 16%]
+tests/test_fenwick_tree.py::TestFenwickTree::test_negative_values PASSED [ 22%]
+tests/test_fenwick_tree.py::TestFenwickTree::test_large_array PASSED     [ 27%]
+tests/test_fenwick_tree.py::TestFenwickTree::test_edge_cases PASSED      [ 33%]
+tests/test_skip_list.py::TestSkipList::test_basic_operations PASSED      [ 38%]
+tests/test_skip_list.py::TestSkipList::test_search_operations PASSED     [ 44%]
+tests/test_skip_list.py::TestSkipList::test_delete_operations PASSED     [ 50%]
+tests/test_skip_list.py::TestSkipList::test_duplicate_handling PASSED    [ 55%]
+tests/test_skip_list.py::TestSkipList::test_large_dataset PASSED         [ 61%]
+tests/test_skip_list.py::TestSkipList::test_edge_cases PASSED            [ 66%]
+tests/test_trie.py::TestTrie::test_basic_insert_search PASSED            [ 72%]
+tests/test_trie.py::TestTrie::test_prefix_search PASSED                  [ 77%]
+tests/test_trie.py::TestTrie::test_delete_operations PASSED              [ 83%]
+tests/test_trie.py::TestTrie::test_edge_cases PASSED                     [ 88%]
+tests/test_trie.py::TestTrie::test_duplicate_inserts PASSED              [ 94%]
+tests/test_trie.py::TestTrie::test_case_sensitivity PASSED               [100%]
+
+============================= 18 passed in 0.13s ==============================
