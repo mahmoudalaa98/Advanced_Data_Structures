@@ -2,6 +2,8 @@
 
 This repository contains the implementation and performance comparison of three advanced data structures: Trie (Prefix Tree), Fenwick Tree (Binary Indexed Tree), and Skip List. Developed for COSC 520 – Advanced Data Structures at the University of British Columbia.
 
+Dataset: https://drive.google.com/drive/folders/1TJMR997f9C9nVq57FmbMqFKyZDVFJYm5?usp=drive_link
+
 ## 📘 Overview
 
 The goal of this assignment is to explore advanced data structures and benchmark their performance. Each structure is implemented from scratch and tested on synthetic datasets of different sizes to analyze time complexity and scalability.
@@ -16,7 +18,6 @@ The goal of this assignment is to explore advanced data structures and benchmark
 
 ### Setup
 
-Dataset: https://drive.google.com/drive/folders/1TJMR997f9C9nVq57FmbMqFKyZDVFJYm5?usp=drive_link
 
 ```bash
 # Clone the repository
@@ -93,4 +94,5 @@ Advanced_Data_Structures/
 * Opengenus – Data Structure Implementations
 
 Note: This repository is part of the COSC 520 course assignment and is intended for academic evaluation only.
+
 
